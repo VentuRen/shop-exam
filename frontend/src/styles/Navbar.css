@@ -1,0 +1,110 @@
+/* 🔹 Estilos del navbar */
+.navbar {
+    background-color: #1e3a8a; /* Azul oscuro */
+    color: white;
+    padding: 16px 24px; /* Agregar padding sin Tailwind */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🔹 Estilos del logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo:hover {
+    color: #dbeafe;
+  }
+  
+  /* 🔹 Estilos de las opciones del navbar */
+  .nav-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* 🔹 Estilos del texto del usuario */
+  .user-text {
+    font-size: 18px;
+  }
+  
+  /* 🔹 Botón de carrito */
+  .cart-button {
+    position: relative;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    color: #dbeafe;
+  }
+  
+  /* 🔹 Número del carrito encima del ícono */
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  /* 🔹 Botón de admin */
+  .admin-button {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .admin-button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* 🔹 Botón de logout */
+  .logout-button {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: darkred;
+  }
+  
+  /* 🔹 Botón de login */
+  .login-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #1e40af;
+  }
+  
